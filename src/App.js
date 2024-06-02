@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import CkeditorComponent from "./CkeditorComponent";
+import QuillDemo from "./quillDemo";
+import CkeditorComponent1 from "./withOutMentionCkeditor";
+import QuillMentionExample from "./quillMentionExample";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<h1>Plugins Demo</h1>
+			{/* <CkeditorComponent /> */}
+			{/* <CkeditorComponent1 /> */}
+			<QuillDemo />
+			{/* <QuillMentionExample /> */}
+			{/* <input type="text" id="editor" /> */}
+		</div>
+	);
 }
 
 export default App;

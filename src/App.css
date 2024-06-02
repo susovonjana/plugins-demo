@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.cke_search_box_container {
+  padding: 5px;
+  background: #f1f1f1;
+  border-bottom: 1px solid #ccc;
+}
+
+.cke_search_box {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+
+/*********/
