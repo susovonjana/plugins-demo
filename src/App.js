@@ -1,8 +1,11 @@
-import "./App.css";
+// import "./App.css";
 import CkeditorComponent from "./CkeditorComponent";
 import QuillDemo from "./quillDemo";
 import CkeditorComponent1 from "./withOutMentionCkeditor";
 import QuillMentionExample from "./quillMentionExample";
+
+import { SimpleEditor } from "./tiptop/TiptopEditor";
+import "./tiptop/styles.css";
 
 function App() {
 	return (
@@ -10,9 +13,10 @@ function App() {
 			<h1>Plugins Demo</h1>
 			{/* <CkeditorComponent /> */}
 			{/* <CkeditorComponent1 /> */}
-			<QuillDemo />
+			{/* <QuillDemo /> */}
 			{/* <QuillMentionExample /> */}
 			{/* <input type="text" id="editor" /> */}
+			<SimpleEditor />
 		</div>
 	);
 }
