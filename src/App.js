@@ -6,6 +6,7 @@ import QuillMentionExample from "./quillMentionExample";
 
 import { SimpleEditor } from "./tiptop/TiptopEditor";
 import "./tiptop/styles.css";
+import {FinalEditor, MenuBar} from "./FinalEditor/FinalEditor";
 
 function App() {
 	return (
@@ -16,7 +17,8 @@ function App() {
 			{/* <QuillDemo /> */}
 			{/* <QuillMentionExample /> */}
 			{/* <input type="text" id="editor" /> */}
-			<SimpleEditor />
+			{/*<SimpleEditor />*/}
+			<FinalEditor MenuBar={MenuBar} />
 		</div>
 	);
 }
